@@ -1,29 +1,7 @@
-.topnav{
-    text-align: center;
-}
-.introduction  {
-    text-align: center;
-    padding: 250px;
-    margin-block: 0px;
-    margin: 0%;
-    background-position: center;
-}
-h1{
-    border:0cm;
-}
-ul{
-    list-style-type:none;
-    background-image: linear-gradient(blue,white);/*comment*/
-    margin: 0;
-    padding: 0;
-}
-li{
-    padding: 10px;
-    display:inline-flex;
-    color:#ffffff;
-    font-family: cavolini,cursive;
-    text-align: center;
-    border: none;
-    padding-right: 50px;
-    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap%27);')
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
