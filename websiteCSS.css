@@ -66,6 +66,75 @@ nav a:hover, nav a.active{
     border-bottom:3px solid #b74b4b;
 }
 
+@media(max-width:995px){
+    nav{
+        position:absolute;
+        top:100%;
+        right0;
+        width:40%;
+        border-left:3px solid #b74b4b;
+        border-bottom-left-radius:2rem;
+        padding: 1rem solid;
+        background-color:#161616;
+        border-top:0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav .active{
+        display:block;
+    }
+
+    nav a {
+        display:block;
+        font-size:2rem;
+        margin:3rem 0;
+    }
+
+    nav a:hover, nav a.active{
+        padding:1rem;
+        border-radius:0.5rem;
+        border-bottom:0.5rem solid #b74b4b;
+
+    }
+
+    section {
+        min-height:100vh;
+        padding:5rem 9% 5rem;
+
+    }
+
+    .home{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:8rem;
+        background-color:black;
+
+    }
+
+    .home .home-content h1{
+        font-size: 6rem;
+        font-weight: 700;
+        line-height:1.3;
+
+    }
+
+    span {
+        color:#b74b4b;
+
+    }
+
+    .home-content h3{
+        font-size:4rem;
+        margin-bottom:1rem;
+        font-weight:700;
+
+    }
+
+    .home-img{
+        border-radius:50%;
+    }
+}
+
 
 
 
